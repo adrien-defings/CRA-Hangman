@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HighScoreInput /> should fail if no credentials are provided 1`] = `
+<form
+  className="highScoreInput"
+  onSubmit={[Function]}
+>
+  <div>
+    <input
+      autoComplete="given-name"
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Your nickname"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-primary"
+      type="submit"
+    >
+      Save my score
+    </button>
+  </div>
+</form>
+`;

@@ -1,0 +1,40 @@
+#hallOfFame {
+  margin-top: 1.5rem;
+  margin: auto;
+}
+
+#hallOfFame input {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0.2em;
+  font-family: Menlo, Monaco, Consolas, Inconsolata, 'Courier New', monospace;
+}
+
+#hallOfFame .btn, #hallOfFame input {
+  height: 40px;
+}
+
+#hallOfFame .btn {
+  margin: 0px 0px 0.2em 1rem
+}
+
+#hallOfFame h5 {
+  margin-bottom: 1rem;
+}
+
+#hallOfFame table {
+  border: 1px solid #DDD;
+}
+
+#hallOfFame tbody {
+  display: block;
+  height: 147px;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+#hallOfFame thead, #hallOfFame tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}

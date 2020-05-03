@@ -1,0 +1,25 @@
+body {
+  background: #e9ecef;
+}
+
+#app {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/* CONTENT, similar properties for #app, #home and #gameContainer*/
+
+#home, #gameContainer {
+  text-align: center;
+  width: 100%;
+  margin: 1.5rem auto 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  #app, #home, #gameContainer {
+    width: 100%;
+  }
+}

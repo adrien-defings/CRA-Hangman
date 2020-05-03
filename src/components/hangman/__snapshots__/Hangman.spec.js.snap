@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hangman /> should match with prev snapshot 1`] = `
+<div
+  id="gameContainer"
+>
+  <canvas
+    height={95}
+    id="canvas"
+    width={95}
+  >
+    Sorry, this browser does not support &ltcanvas&gt.
+  </canvas>
+  <InfosJoueur
+    color="primary"
+    currentPlayer={0}
+    isGameEnded={false}
+    navigationMode="multiplayer"
+    winner={3}
+  />
+  <span>
+    0
+     moves
+  </span>
+  <div
+    id="word"
+  >
+    <span
+      className="letter badge badge-light"
+      key="0"
+      letter="_"
+    >
+      _
+    </span>
+    <span
+      className="letter badge badge-light"
+      key="1"
+      letter="_"
+    >
+      _
+    </span>
+    <span
+      className="letter badge badge-light"
+      key="2"
+      letter="_"
+    >
+      _
+    </span>
+    <span
+      className="letter badge badge-light"
+      key="3"
+      letter="_"
+    >
+      _
+    </span>
+  </div>
+  <Letters
+    color="primary"
+    onClick={[Function]}
+    usableLetters={
+      Array [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+      ]
+    }
+  />
+</div>
+`;

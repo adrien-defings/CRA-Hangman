@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should trigger its \`onClick\` on multiplayer Mode 1`] = `
+<div
+  id="home"
+>
+  <h4>
+    Welcome 
+    <span
+      aria-label="hangman logo"
+      role="img"
+    >
+      🙋‍♂️
+    </span>
+  </h4>
+  <p
+    className="lead"
+  >
+    Please choose one of this following navigationMode :
+  </p>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Single Player
+  </button>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Multiplayer
+  </button>
+</div>
+`;
+
+exports[`<Home /> should trigger its \`onClick\` on singlePlayer Mode 1`] = `
+<div
+  id="home"
+>
+  <h4>
+    Welcome 
+    <span
+      aria-label="hangman logo"
+      role="img"
+    >
+      🙋‍♂️
+    </span>
+  </h4>
+  <p
+    className="lead"
+  >
+    Please choose one of this following navigationMode :
+  </p>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Single Player
+  </button>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Multiplayer
+  </button>
+</div>
+`;

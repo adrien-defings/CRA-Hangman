@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should App contain an Header component 1`] = `
+<div
+  className="jumbotron"
+  id="app"
+>
+  <Header
+    navigationMode="home"
+    onClick={[Function]}
+  />
+  <Home
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`<App /> should navigationMode state be updated with associated set function 1`] = `
+<div
+  className="jumbotron"
+  id="app"
+>
+  <Header
+    navigationMode="home"
+    onClick={[Function]}
+  />
+  <Home
+    onClick={[Function]}
+  />
+</div>
+`;
